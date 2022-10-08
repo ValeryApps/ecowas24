@@ -1,0 +1,45 @@
+/* .country {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+} */
+
+.country_stories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.story {
+    width: 100%;
+    height: 20rem;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.story img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.story h3 {
+    text-overflow: ellipsis;
+
+}
+
+.right {
+    min-width: 28%;
+}
+
+h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

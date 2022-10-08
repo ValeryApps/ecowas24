@@ -1,0 +1,5 @@
+.footer {
+    height: 400px;
+    min-width: 100%;
+    background: var(--green-val-color);
+}
